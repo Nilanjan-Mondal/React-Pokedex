@@ -1,0 +1,66 @@
+.pokemon-details-name {
+    font-size: xx-large;
+    color: black;
+    margin-top: 1rem;
+}
+
+.pokemon-details-name > span {
+    letter-spacing: 5px;
+    font-size: larger;
+}
+
+.pokemon-details-types {
+    display: flex;
+    gap: 20px;
+    padding-top: 5px;
+    font-size: x-large;
+}
+
+.pokemon-details-types > div {
+    border: 1px solid gainsboro;
+    border-radius: 10px;
+    padding: 1rem;
+    background-color: gainsboro;
+}
+
+
+.pokemon-details-img {
+    max-height: 200px;
+    margin-top: 3rem;
+}
+
+.pokemon-details-wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.pokemon-details-height, .pokemon-details-weight, .type-span{
+    font-size: xx-large;
+}
+
+.pokemon-details-height {
+    padding-top: 2rem;
+}
+
+.type-span {
+    font-size: xx-large;
+    padding-top: 2rem;
+}
+
+/* .pokemon-details-moves {
+    display: flex;
+    
+    flex-direction: column;
+    gap: 20px;
+    padding-top: 5px;
+    font-size: x-large;
+}
+
+.pokemon-details-moves > div {
+    flex-wrap: wrap;
+    border: 1px solid gainsboro;
+    border-radius: 10px;
+    padding: 1rem;
+    background-color: gainsboro;
+} */
